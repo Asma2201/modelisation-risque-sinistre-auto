@@ -1,0 +1,30 @@
+# ── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ── Environnements virtuels ─────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Jupyter ─────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Données générées par le notebook ─────
+df_final_grouped.csv
+
+# ── Modèles / sorties générées ──────────
+*.pkl
+*.joblib
+outputs/
+
+# ── IDE / système ───────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
